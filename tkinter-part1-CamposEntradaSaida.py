@@ -3,7 +3,6 @@
         Playlist: https://www.youtube.com/playlist?list=PLqx8fDb-FZDFznZcXb_u_NyiQ7Nai674-
 """
 
-
 """from tkinter import *
 from tkinter import ttk
 
@@ -13,38 +12,6 @@ frm.grid()
 ttk.Label(frm, text="Hello World!").grid(column=0, row=0)
 ttk.Button(frm, text="Quit", command=root.destroy).grid(column=1, row=0)
 root.mainloop()"""
-
-"""from tkinter import *
-
-class GUI(Frame):
-    def __init__(self, master=None):
-        Frame.__init__(self, master)
-        self.grid()
-
-        self.fnameLabel = Label(master, text="First Name")
-        self.fnameLabel.grid()
-
-        self.fnameEntry = StringVar()
-        self.fnameEntry = Entry(textvariable=self.fnameEntry)
-        self.fnameEntry.grid()
-
-        self.lnameLabel = Label(master, text="Last Name")
-        self.lnameLabel.grid()
-
-        self.lnameEntry = StringVar()
-        self.lnameEntry = Entry(textvariable=self.lnameEntry)
-        self.lnameEntry.grid()
-
-        def buttonClick():
-            print("You pressed Submit!")
-            print(self.fnameEntry.get() + " " + self.lnameEntry.get() +",ou clicked the button!")
-
-        self.submitButton = Button(master, text="Submit", command=buttonClick)
-        self.submitButton.grid()
-
-guiFrame = GUI()
-guiFrame.mainloop()"""
-
 
 from tkinter import *
 
